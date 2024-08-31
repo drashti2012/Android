@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#AFB7E3"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3D art"
+        android:textSize="33dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#505A8F"
+        android:layout_marginBottom="55dp"
+        android:id="@+id/btn3d"
+        android:layout_margin="11dp">
+
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nature art"
+        android:textSize="33dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#505A8F"
+        android:layout_marginBottom="55dp"
+        android:id="@+id/btnnature"
+        android:layout_margin="11dp">
+
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="simple art"
+        android:textSize="33dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#505A8F"
+        android:layout_marginBottom="55dp"
+        android:id="@+id/btnsimple"
+        android:layout_margin="11dp">
+
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pencil art "
+        android:textSize="33dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#505A8F"
+        android:layout_marginBottom="55dp"
+        android:id="@+id/btnpencil"
+        android:layout_margin="11dp">
+
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="potrait art"
+        android:textSize="33dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#505A8F"
+        android:layout_marginBottom="55dp"
+        android:id="@+id/btnsketch"
+        android:layout_margin="11dp">
+
+    </Button>
+
+
+</LinearLayout>
+
+

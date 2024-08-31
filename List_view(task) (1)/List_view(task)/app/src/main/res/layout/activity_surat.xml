@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SuratActivity">
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#CB001CD4"
+        android:text="RAJKOT CITY" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/download" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:text="The city was the capital of the former princely state of Rajkot and of the former Western India States Agency. It is now an important commercial and industrial centre. The manufacture of cotton and woolen textiles is a major activity; ceramics, diesel engines, and water pump sets are also produced in the city. Rajkot is known for its traditional handicrafts (silver work, embroidery, and patola weaving). Educational institutions include Rajkumar College (1870) and several colleges affiliated with Saurashtra University. The Watson Museum and Library, housing silver, textiles, and other artifacts, is in the Jubilee Gardens of Rajkot. The city is an important junction on the Western Railway, with connections to most major cities in the state. It is also served by major highways and an airport. The terrain surrounding Rajkot is undulating, its stony soil watered by several streams. " />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+</LinearLayout>
